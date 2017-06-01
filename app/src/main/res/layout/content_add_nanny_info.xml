@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ajam.babysitterfinder.AddNannyInfo"
+    tools:showIn="@layout/activity_add_nanny_info">
+
+    <Button
+        android:id="@+id/btnInsertNanny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="8dp"
+        android:text="SAVE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="399dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="4dp"
+        android:id="@+id/linearLayout3">
+
+        <TextView
+            android:id="@+id/tvUserNameNanny"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <EditText
+            android:id="@+id/etAddFullnameNanny"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Fullname"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etAddAgeNanny"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Age"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etAddSex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Sex"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etAddPhoneNanny"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Phone"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/etAddRace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Race"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etAddReligion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Religion"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etAddTown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Town"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etAddRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Rate"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnMainPageNanny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="42dp"
+        android:text="Main Page"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toRightOf="@+id/btnInsertNanny"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="431dp" />
+
+</android.support.constraint.ConstraintLayout>

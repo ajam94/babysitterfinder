@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvfullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="29dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:id="@+id/tvage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:text="TextView"
+        android:layout_below="@+id/tvfullname"
+        android:layout_alignLeft="@+id/tvfullname"
+        android:layout_alignStart="@+id/tvfullname" />
+
+    <TextView
+        android:id="@+id/tvsex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="TextView"
+        android:layout_below="@+id/tvage"
+        android:layout_alignLeft="@+id/tvage"
+        android:layout_alignStart="@+id/tvage" />
+
+    <TextView
+        android:id="@+id/tvtown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvage"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvsex"
+        android:layout_alignLeft="@+id/tvtown"
+        android:layout_alignStart="@+id/tvtown"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvtown"
+        android:layout_alignLeft="@+id/tvage"
+        android:layout_alignStart="@+id/tvage"
+        android:text="Age:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvrate"
+        android:layout_alignLeft="@+id/tvsex"
+        android:layout_alignStart="@+id/tvsex"
+        android:text="Gender:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvtown"
+        android:layout_alignEnd="@+id/tvtown"
+        android:layout_alignRight="@+id/tvtown"
+        android:text="Town:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvrate"
+        android:layout_alignEnd="@+id/tvrate"
+        android:layout_alignRight="@+id/tvrate"
+        android:text="Rate per hour:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/tvphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvfullname"
+        android:layout_alignStart="@+id/tvfullname"
+        android:layout_below="@+id/tvfullname"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+</RelativeLayout>

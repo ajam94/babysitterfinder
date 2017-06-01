@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvFullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="42dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvFullname"
+        android:layout_alignRight="@+id/tvFullname"
+        android:layout_below="@+id/tvFullname"
+        android:layout_marginTop="26dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:id="@+id/tvRace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvPhone"
+        android:layout_alignRight="@+id/tvPhone"
+        android:layout_below="@+id/tvPhone"
+        android:layout_marginTop="24dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvReligion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvRace"
+        android:layout_alignRight="@+id/tvRace"
+        android:layout_below="@+id/tvRace"
+        android:layout_marginTop="24dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvTown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/tvPhone"
+        android:layout_alignBottom="@+id/tvPhone"
+        android:layout_toRightOf="@+id/tvPhone"
+        android:layout_toEndOf="@+id/tvPhone"
+        android:layout_marginLeft="79dp"
+        android:layout_marginStart="79dp" />
+
+    <TextView
+        android:id="@+id/tvNochild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/tvRace"
+        android:layout_alignBottom="@+id/tvRace"
+        android:layout_alignLeft="@+id/tvTown"
+        android:layout_alignStart="@+id/tvTown"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp" />
+
+    <TextView
+        android:id="@+id/tvChildinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/tvReligion"
+        android:layout_alignBottom="@+id/tvReligion"
+        android:layout_alignLeft="@+id/tvNochild"
+        android:layout_alignStart="@+id/tvNochild" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvNochild"
+        android:layout_alignEnd="@+id/tvRace"
+        android:layout_alignRight="@+id/tvRace"
+        android:text="Race:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvChildinfo"
+        android:layout_alignLeft="@+id/tvReligion"
+        android:layout_alignStart="@+id/tvReligion"
+        android:text="Religion:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvTown"
+        android:layout_alignLeft="@+id/tvTown"
+        android:layout_alignStart="@+id/tvTown"
+        android:text="Town:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvNochild"
+        android:layout_alignRight="@+id/tvNochild"
+        android:layout_alignTop="@+id/textView9"
+        android:text="No. of Children:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvChildinfo"
+        android:layout_alignEnd="@+id/tvChildinfo"
+        android:layout_alignRight="@+id/tvChildinfo"
+        android:text="Children Info:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+</RelativeLayout>

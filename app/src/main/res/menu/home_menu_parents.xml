@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/editParents"
+        android:title="Update Profile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logoutIdParents"
+        android:title="Log Out"
+        app:showAsAction="never" />
+
+</menu>
