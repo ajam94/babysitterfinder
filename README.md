@@ -1,10 +1,10 @@
 # babysitterfinder
 
-1. Introduction
--Babysitter Finder is an application to find and select a babysitter around the area that we are live. This application will match the parents and the sitter with their addresses, then they can contact with each other so that they have an agreement between them. Parents can see all the information about the babysitter at the mobile application including the picture, qualification and their background and babysitter also can see the information of the parents and their children. With this application, parents can find the most trusted babysitter that live around their area with ease even at the last minute. We also give an opportunity to our local-community to have a job as a babysitter especially for female teenagers while they are on school or semester break.
+
+Babysitter Finder is an application to find and select a babysitter around the area that we are live. This application will match the parents and the sitter with their addresses, then they can contact with each other so that they have an agreement between them. Parents can see all the information about the babysitter at the mobile application including the picture, qualification and their background and babysitter also can see the information of the parents and their children. With this application, parents can find the most trusted babysitter that live around their area with ease even at the last minute. We also give an opportunity to our local-community to have a job as a babysitter especially for female teenagers while they are on school or semester break.
 
 
-2. Modules
+Modules:
 
 a)	Parents
 
