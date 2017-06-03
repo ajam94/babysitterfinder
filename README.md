@@ -1,6 +1,7 @@
 # babysitterfinder
 
 1.4.1	Users
+
 a)	Parents
 i.	Login
 -	Parents need to log into the system first in order to use the application. They need to enter their username and password.
